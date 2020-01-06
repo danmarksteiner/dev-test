@@ -20,7 +20,11 @@
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "backpack-react-scripts": "^7.0.2",
+    "bpk-component-button": "^3.2.0",
+    "bpk-component-card": "^2.0.21",
+    "bpk-component-icon": "^5.0.22",
     "bpk-component-text": "^2.0.17",
+    "bpk-component-ticket": "^3.0.23",
     "bpk-mixins": "^19.0.17",
     "bpk-stylesheets": "^4.0.17",
     "eslint": "^6.6.0",
@@ -36,5 +40,9 @@
     "not dead",
     "not ie <= 10",
     "not op_mini all"
-  ]
+  ],
+  "dependencies": {
+    "axios": "^0.19.0",
+    "prop-types": "^15.7.2"
+  }
 }

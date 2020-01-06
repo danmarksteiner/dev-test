@@ -5,6 +5,7 @@
     "jest": true
   },
   "rules": {
+    "linebreak-style": ["error", "unix"],
     "import/no-extraneous-dependencies": [
       "error",
       {
