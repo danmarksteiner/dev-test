@@ -1,0 +1,35 @@
+@import '~bpk-mixins';
+.flight-card {
+  margin-bottom: 0.75rem;
+  span {
+    font-family: 'Skyscanner Relative', -apple-system, BlinkMacSystemFont,
+      'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+      'Helvetica Neue', 'Arial', sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    &.flight-card-time {
+      font-size: 1rem;
+    }
+    &.flight-card-airport {
+      color: #817b8f;
+      font-size: 1rem;
+    }
+  }
+  .flight-price {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    .flight-total {
+      font-size: 1.5rem;
+    }
+    .flight-agent {
+      color: #817b8f;
+    }
+    .flight-button {
+      justify-self: end;
+      align-self: end;
+    }
+  }
+}

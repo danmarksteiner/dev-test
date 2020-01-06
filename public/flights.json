@@ -2,72 +2,51 @@
   "itineraries": [
     {
       "id": "it_1",
-      "legs": [
-        "leg_1",
-        "leg_4"
-      ],
+      "legs": ["leg_1", "leg_4"],
       "price": "£35",
       "agent": "Wizzair.com",
       "agent_rating": 9.1
     },
     {
       "id": "it_2",
-      "legs": [
-        "leg_2",
-        "leg_5"
-      ],
+      "legs": ["leg_2", "leg_5"],
       "price": "£115",
       "agent": "British Airways",
       "agent_rating": 9.3
     },
     {
       "id": "it_3",
-      "legs": [
-        "leg_3",
-        "leg_6"
-      ],
+      "legs": ["leg_3", "leg_6"],
       "price": "£90",
       "agent": "Lufthansa",
       "agent_rating": 8.9
     },
     {
       "id": "it_4",
-      "legs": [
-        "leg_1",
-        "leg_5"
-      ],
+      "legs": ["leg_1", "leg_5"],
       "price": "£105",
       "agent": "Trip.com",
       "agent_rating": 9.5
     },
     {
       "id": "it_5",
-      "legs": [
-        "leg_1",
-        "leg_6"
-      ],
+      "legs": ["leg_1", "leg_6"],
       "price": "£195",
       "agent": "Trip.com",
       "agent_rating": 9.5
     },
     {
       "id": "it_6",
-      "legs": [
-        "leg_2",
-        "leg_4"
-      ],
+      "legs": ["leg_2", "leg_4"],
       "price": "£93",
       "agent": "Kiwi.com",
       "agent_rating": 8.0
     },
     {
       "id": "it_7",
-      "legs": [
-        "leg_3",
-        "leg_4"
-      ],
+      "legs": ["leg_3", "leg_4"],
       "price": "£42",
-      "agent": "CheapFligths",
+      "agent": "CheapFlights",
       "agent_rating": 10.0
     }
   ],

@@ -1,0 +1,37 @@
+.flight-card-legs {
+  display: grid;
+  grid-template-columns: 35px 35px 35px repeat(2, auto);
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  margin-bottom: 20px;
+  .flight-card-airline-icon-WZ {
+    background: url('./icon-wizz.svg') no-repeat left top;
+    background-size: 35px auto;
+  }
+  .flight-card-airline-icon-BA {
+    background: url('./icon-ba.svg') no-repeat left top;
+    background-size: 35px auto;
+  }
+  .flight-card-airline-icon-LH {
+    background: url('./icon-lufthansa.svg') no-repeat left top;
+    background-size: 35px auto;
+  }
+  .flight-card-icon-arrow {
+    justify-self: center;
+    align-self: center;
+    .flight-card-icon__long-arrow-right {
+      fill: #b2aebd;
+    }
+  }
+  .flight-card-duration {
+    justify-self: end;
+    text-align: right;
+    color: #b2aebd;
+    .stops {
+      color: red;
+    }
+    .stops-direct {
+      color: #02a698;
+    }
+  }
+}
